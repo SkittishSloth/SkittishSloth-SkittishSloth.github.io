@@ -1,0 +1,75 @@
+figure.highlight, .codeblock 
+    background: #fff
+    margin: 10px 0
+    line-height: 1.1em
+    color: #333
+    padding-top: 15px
+    overflow: hidden
+
+    table
+        display: block
+        width: 100%
+    
+    pre, .gutter, .code, .tag
+        background-color: inherit
+        font-family: Menlo, Consolas, monospace
+        border: none
+        padding: 0
+        margin: 0
+        cursor: text
+    
+    .gutter, .code
+        vertical-align: top
+    
+    &.plain
+        .gutter
+            display: none
+    
+    figcaption
+        font-size: 13px
+        padding: 0 15px 20px
+        margin: 0
+        background: #fff
+        color: #999
+
+        a
+            float: right
+            color: #01579f
+        
+    .gutter
+        background: #fff
+        border-right: 1px solid #e6e6e6
+        padding: 0.3em 15px
+        user-select: none
+    
+    .code
+        padding: 0.3em 15px 0.3em 1em
+        width: 100%
+
+        pre
+            max-width: 700px
+            overflow-x: auto
+            overflow-y: hidden
+        
+.highlight
+    .comment
+        color: #969896
+
+    .string
+        color: #183691
+
+    .keyword
+        color: #a71d5d
+
+    &.bash .code
+        .shebang
+            color: #969896
+        
+        .literal, .built_in
+            color: #0086b3
+    
+        .variable
+            color: #333
+
+        .title
+            color: #795da3

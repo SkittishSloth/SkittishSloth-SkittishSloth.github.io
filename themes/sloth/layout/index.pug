@@ -1,0 +1,9 @@
+section.section
+    for post in page.posts.toArray()
+        article.post 
+            .post-title
+                a.post-title-link(href=url_for(post.path))= post.title
+            .post-content= post.excerpt
+            .post-meta
+                span.post-time= date(post.date, "YYYY-MM-DD")
+- partial('_partial/paginator')

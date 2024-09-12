@@ -1,0 +1,9 @@
+!= page.breadcrumb 
+
+article
+    .post-title
+        h2.title= page.title
+    .post-meta 
+        span.post-item= date(page.date, "YYYY-MM-DD")
+    .post-content
+        != page.content

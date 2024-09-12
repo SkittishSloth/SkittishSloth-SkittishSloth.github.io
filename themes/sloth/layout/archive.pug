@@ -1,0 +1,7 @@
+section.archive.section
+    ul.post-archive 
+        for post in page.posts.toArray()
+            li.post-item
+                span.post-date= date(post.date, "YYYY-MM-DD")
+                a.post-title(href=url_for(post.path))= post.title
+- partial('_partial/paginator')

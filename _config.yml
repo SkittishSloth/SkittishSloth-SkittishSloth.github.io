@@ -3,13 +3,13 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle: ''
+title: The Slothful Coder
+subtitle: 'Proudly serving bug-free code since [invalid date: null]'
 description: ''
 keywords:
-author: John Doe
+author: Matthew Cory
 language: en
-timezone: ''
+timezone: 'America/Denver'
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
@@ -43,17 +43,31 @@ render_drafts: false
 post_asset_folder: false
 relative_link: false
 future: true
-syntax_highlighter: highlight.js
+syntax_highlighter: 
 highlight:
   line_number: true
-  auto_detect: false
-  tab_replace: ''
+  auto_detect: true
+  tab_replace: '  '
   wrap: true
-  hljs: false
+  hljs: true
 prismjs:
   preprocess: true
   line_number: true
-  tab_replace: ''
+  tab_replace: '  '
+
+shiki:
+  # theme: one-dark-pro
+  theme: github-dark
+  line_number: true
+  beautify: false # whether to add highlight tool true or false
+  highlight_copy: true # copy button
+  highlight_lang: true # show the code language
+  highlight_height_limit: 360 # code-block max height,unit: px
+  is_highlight_shrink: false # true: shrink the code blocks / false: expand the code blocks | none: expand code blocks and hide the button
+  copy: # copy message
+    success: "Copy Success"
+    error: "Copy Error"
+    no_support: "Browser Not Support"
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -102,7 +116,7 @@ feed:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: maupassant
+theme: sloth
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
