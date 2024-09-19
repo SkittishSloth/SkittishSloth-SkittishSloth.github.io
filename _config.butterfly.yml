@@ -59,7 +59,7 @@ avatar:
   effect: false
 
 # Disable all banner images
-# disable_top_img: true
+disable_top_img: true
 
 # If the banner of page not setting, it will show the default_top_img
 default_top_img:
@@ -504,12 +504,12 @@ share:
   # Share.js
   # https://github.com/overtrue/share.js
   sharejs:
-    sites: facebook,twitter,wechat,weibo,qq
+    sites: facebook,twitter
 
   # AddToAny
   # https://www.addtoany.com/
   addtoany:
-    item: facebook,twitter,wechat,sina_weibo,facebook_messenger,email,copy_link
+    item: facebook,twitter,facebook_messenger,email,copy_link
 
 # --------------------------------------
 # Comments System
@@ -772,8 +772,8 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: true
-  footer: true
+  header: false
+  footer: false
 
 # Loading Animation
 preloader:
@@ -999,7 +999,7 @@ pwa:
 # Open graph meta tags
 # https://hexo.io/docs/helpers#open-graph
 Open_Graph_meta:
-  enable: true
+  enable: false
   option:
     # twitter_card:
     # twitter_image:
