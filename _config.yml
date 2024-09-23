@@ -102,10 +102,10 @@ feed:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-# theme: butterfly
+theme: butterfly
 # theme: sloth
 # theme: next
-theme: fluid
+# theme: fluid
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
