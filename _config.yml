@@ -1,5 +1,7 @@
 title: The Slothful Coder
-subtitle: 'Proudly serving bug-free code since [invalid date: null]'
+subtitle: >-
+  Proudly serving bug-free code since <code style="font-size: 1em">[invalid
+  date: null]</code>
 description: ''
 keywords: null
 author: Matthew Cory
