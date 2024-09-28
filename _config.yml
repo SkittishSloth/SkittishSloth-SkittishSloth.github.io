@@ -54,6 +54,6 @@ feed:
   type:
     - atom
     - rss2
-theme: icarus
+theme: butterfly
 deploy:
   type: ''

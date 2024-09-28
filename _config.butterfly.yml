@@ -117,7 +117,7 @@ post_meta:
   # Home Page
   page:
     # Choose: created / updated / both
-    date_type: created
+    date_type: both
     # Choose: date / relative
     date_format: date
     categories: true
@@ -193,9 +193,9 @@ toc:
   post: true
   page: false
   number: true
-  expand: false
+  expand: true
   # Only for post
-  style_simple: false
+  style_simple: true
   scroll_percent: true
 
 post_copyright:
@@ -499,7 +499,7 @@ search:
 share:
   # Choose: sharejs / addtoany
   # Leave it empty if you don't need share
-  use: sharejs
+  use: 
 
   # Share.js
   # https://github.com/overtrue/share.js
@@ -772,8 +772,8 @@ text_align_justify: false
 
 # Add a mask to the header and footer
 mask:
-  header: false
-  footer: false
+  header: true
+  footer: true
 
 # Loading Animation
 preloader:
