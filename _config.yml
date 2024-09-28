@@ -57,3 +57,11 @@ feed:
 theme: butterfly
 deploy:
   type: ''
+
+markdown:
+  render:
+    html: true
+    breaks: false
+    linkify: true
+    typographer: true
+    quotes: '“”‘’'

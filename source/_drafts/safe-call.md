@@ -29,7 +29,8 @@ if ((defaultUriVariables != null) && !(defaultUriVariables.isEmpty())) {
 // etc.
 ```
 
-This is particularly ugly if dealing with an immutable instance like Spring's `RedisCacheConfiguration`:
+This is particularly ugly if dealing with an immutable instance like 
+Spring's `RedisCacheConfiguration`:
 
 ```java
 final RedisCacheConfiguration cacheConfig = defaultCacheConfiguration();

@@ -1,3 +1,5 @@
-figure.image:has(img.avatar) {
-    display: none !important;
+#article-container .highlight-tools .code-lang {
+    font-weight: normal;
+    font-size: 1em;
+    padding: 0px;
 }
