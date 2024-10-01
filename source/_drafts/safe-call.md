@@ -147,4 +147,13 @@ public <T, U> SafeCall<U> call(T input, BiFunction<B, T, U> fn) {
 }
 ```
 
-This is a good candidate for using an `Option` or an `Either` monad, but that is beyond the scope of this article.
+This is a good candidate for using an `Option` or an `Either` monad; here's a quick example using Java's
+`Optional`:
+
+```java
+public <T, U> Optional<SafeCall<U>> call(T input, BiFunction<B, T U> fn) {
+  return Optional.ofNullable(input)
+    .map(in -> fn.apply(builder, in))
+    .map(SafeCall::new);
+}
+```
